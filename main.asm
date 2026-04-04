@@ -14,5 +14,5 @@ _start:
 
 .data
 msg:
-	.ascii "Hi\n"
+	.ascii "\x1b[H\x1b[2J\x1b[3J"
 	len = . - msg
